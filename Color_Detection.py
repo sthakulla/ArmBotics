@@ -30,8 +30,8 @@ while Tue:
 	
 	mask1 = cv2.inRange(hsv, lower_yellow,upper_yellow)
 	mask2 = cv2.inRange(hsv, lower_green, upper_green)
-    mask3 = cv2.inRange(hsv, lower_red, upper_red)	
-    mask4 = cv2.inRange(hsv, lower_blue, upper_blue)	
+	mask3 = cv2.inRange(hsv, lower_red, upper_red)	
+	mask4 = cv2.inRange(hsv, lower_blue, upper_blue)	
  	
 	cnts1 = cv2.findContours(mask1,cv2.RETR_TREE,cv2.CHAIN_APPROX_SIMPLE)
 	cnts1 = imutils.grab_contours(cnts1)
