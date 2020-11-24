@@ -12,7 +12,7 @@ cap = cv2.VideoCapture(1)
 cap.set(3,640)
 cap.set(4,480)
 
-while Tue:
+while True:
 	_,frame = cap.read()
 	hsv = cv2.cvColor(img,cv2.COLOR_BRG2HSV)
 	lower_yellow = np.array([25,70,120])
