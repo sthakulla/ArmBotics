@@ -6,3 +6,4 @@ Senior Design Project
 https://github.com/tensorflow/models/blob/master/research/object_detection/g3doc/tf2.md
 from terminal, inside of object_detection folder, type "jupyter notebook"
 then go to "colab tutorial" to find objec_detection_tutorial after open jupyter notebook
+https://www.youtube.com/watch?v=COlbP62-B-U&t=320s
