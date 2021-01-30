@@ -18,7 +18,7 @@ from rpi_ws281x import *
 
 import threading
 
-
+#This doesn't work
 
 class RobotLight(threading.Thread):
 
